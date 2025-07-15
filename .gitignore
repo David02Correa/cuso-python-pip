@@ -1,0 +1,61 @@
+# ───── Archivos de Python ─────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de entorno virtual
+venv/
+env/
+.venv/
+.python-version
+
+# ───── Archivos de configuración personal ─────
+.vscode/
+.idea/
+*.code-workspace
+
+# ───── Archivos sensibles ─────
+.env
+*.env
+*.secret
+secrets.json
+
+# ───── Logs y bases de datos locales ─────
+*.log
+*.sqlite3
+*.db
+*.bak
+
+# ───── Archivos de sistema ─────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ───── Salidas de compilación ─────
+dist/
+build/
+*.egg-info/
+
+# ───── Archivos de pruebas / caché ─────
+coverage/
+htmlcov/
+.cache/
+.tox/
+.pytest_cache/
+
+# ───── Archivos temporales y de respaldo ─────
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# ───── Entorno WSL específico ─────
+/mnt/c/Users/**/AppData/
+/mnt/c/Users/**/Downloads/
+/mnt/c/Windows/
+/mnt/*/Temp/
+
+# ───── Git ─────
+.git/
